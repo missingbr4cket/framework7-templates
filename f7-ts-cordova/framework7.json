@@ -1,0 +1,31 @@
+{
+  "cwd": "/home/user/dev/js/framework7/typescript-template",
+  "type": [
+    "cordova"
+  ],
+  "name": "F7 App Sample",
+  "pkg": "io.framework7.app.sample",
+  "framework": "core",
+  "template": "single-view",
+  "bundler": "vite",
+  "cssPreProcessor": false,
+  "cordova": {
+    "folder": "cordova",
+    "platforms": [
+      "android"
+    ],
+    "plugins": [
+      "cordova-plugin-statusbar",
+      "cordova-plugin-keyboard",
+      "cordova-plugin-splashscreen"
+    ]
+  },
+  "theming": {
+    "customColor": false,
+    "color": "#007aff",
+    "darkTheme": false,
+    "iconFonts": true,
+    "fillBars": false
+  },
+  "customBuild": false
+}

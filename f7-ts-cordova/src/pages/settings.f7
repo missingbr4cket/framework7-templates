@@ -1,0 +1,63 @@
+<template>
+  <div class="page" data-name="settings">
+    <div class="navbar">
+      <div class="navbar-bg"></div>
+      <div class="navbar-inner sliding">
+        <div class="left">
+          <a href="#" class="link back">
+            <i class="icon icon-back"></i>
+            <span class="if-not-md">Back</span>
+          </a>
+        </div>
+        <div class="title">Settings</div>
+      </div>
+    </div>
+    <div class="page-content">
+      <form class="list form-store-data" id="config-form">
+        <div class="list">
+          <ul>
+            <li class="item-content item-input item-input-outline">
+              <div class="item-inner">
+                <div class="item-title item-floating-label">Server URL</div>
+                <div class="item-input-wrap">
+                  <input class="config-input config-server-url" type="text" name="config-server-url" placeholder="Server URL" validate/>
+                  <span class="input-clear-button"></span>
+                </div>
+              </div>
+            </li>
+            <li class="item-content item-input item-input-outline">
+              <div class="item-inner">
+                <div class="item-title item-floating-label">Entity</div>
+                <div class="item-input-wrap">
+                  <input class="config-input config-entity" type="text" name="config-entity" placeholder="Entity"/>
+                  <span class="input-clear-button"></span>
+                </div>
+              </div>
+            </li>
+            <li class="item-content">
+              <div class="item-inner">
+                <div class="item-title">Toggle</div>
+                <div class="item-after">
+                  <label class="toggle config-server-toggle">
+                    <input class="config-input config-toggle" type="checkbox" name="config-toggle" unchecked />
+                    <span class="toggle-icon"></span>
+                  </label>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </form>
+      <div class="block block-strong row">
+        <div class="col">\
+          <a class="clear-button button button-fill" href="#">Clear</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  </template>`;
+  <script>
+    export default() => {
+      return $render;
+    }
+  </script>

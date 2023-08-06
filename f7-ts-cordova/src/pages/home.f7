@@ -1,0 +1,60 @@
+<template>
+  <div class="page" data-name="home">
+    <!-- Top Navbar -->
+    <div class="navbar navbar-large">
+      <div class="navbar-bg"></div>
+      <div class="navbar-inner">
+        <div class="right">
+          <a href="/settings/" class="link icon-only">
+            <i class="icon f7-icons if-not-md">gear_alt_fill</i>
+            <i class="icon material-icons if-md">settings</i>
+          </a>
+          <a href="#" class="link icon-only logout-btn">
+            <i class="icon f7-icons if-not-md">arrow_uturn_right_square_fill</i>
+            <i class="icon material-icons if-md">logout</i>
+          </a>
+        </div>
+        <div class="title-large">
+          <div class="title-large-text">F7 App Sample
+            <a href="#" class="icon-package"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Scrollable page content-->
+    <div class="page-content">
+      <div class="block-title">Menu</div>
+        <div class="list menu-list">
+          <ul>
+            <li>
+              <a href="/checkout/" class="item-content item-link">
+                <div class="item-media">
+                  <i class="icon material-icons if-md">shopping_cart_checkout</i>
+                  <i class="icon f7-icons if-not-md">cart_fill</i>
+                </div>
+                <div class="item-inner">
+                  <div class="item-title">Checkout</div>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="/profile/" class="item-content item-link">
+                <div class="item-media">
+                  <i class="icon material-icons if-md">person</i>
+                  <i class="icon f7-icons if-not-md">person_fill</i>
+                </div>
+                <div class="item-inner">
+                  <div class="item-title">Profile</div>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+    </div>
+  </div>
+</template>
+<script>
+export default (props, { $update }) => {
+  return $render;
+}
+</script>

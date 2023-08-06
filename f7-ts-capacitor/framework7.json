@@ -1,0 +1,25 @@
+{
+  "cwd": "/home/user/dev/js/framework7/xyzappname",
+  "type": [
+    "capacitor",
+    "web"
+  ],
+  "name": "xyzappname",
+  "framework": "core",
+  "template": "single-view",
+  "bundler": "vite",
+  "cssPreProcessor": false,
+  "theming": {
+    "customColor": false,
+    "color": "#007aff",
+    "darkMode": false,
+    "iconFonts": true
+  },
+  "customBuild": false,
+  "pkg": "com.f7.xyzappname",
+  "capacitor": {
+    "platforms": [
+      "android"
+    ]
+  }
+}

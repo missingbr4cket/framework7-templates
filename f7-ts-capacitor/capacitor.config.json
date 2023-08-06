@@ -1,0 +1,13 @@
+{
+  "appId": "com.f7.xyzappname",
+  "appName": "xyzappname",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  },
+  "cordova": {}
+}
